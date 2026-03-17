@@ -1,10 +1,10 @@
 public class StatisticsHelper {
     public static int average(int[] arr) {
-        int sum = 0;
+        int totalSum = 0;
         for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
+            totalSum += arr[i];
         }
-        return sum / arr.length;
+        return totalSum / arr.length;
     }
 
     public static int CalculateAverage(int[] values) {
