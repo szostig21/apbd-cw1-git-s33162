@@ -7,6 +7,14 @@ public class StatisticsHelper {
         return sum / arr.length;
     }
 
+    public static int CalculateAverage(int[] values) {
+        int sum = 0;
+        for (int i = 0; i < values.length; i++) {
+            sum += values[i];
+        }
+        return sum / values.length;
+    }
+
     public static int minInt(int[] arr) {
         int min = arr[0];
         for (int i = 1; i < arr.length; i++) {
