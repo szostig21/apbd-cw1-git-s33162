@@ -20,5 +20,6 @@ public class Main {
         System.out.println("Srednia: " + avg + "\nNajmniejsza liczba: " + min
                 + "\nNajwieksza liczba: " + max);
         System.out.println("GitCheck");
+        System.out.println("GitCheck v2");
     }
 }
