@@ -14,7 +14,7 @@ public class Main {
         }
 
         int avg = StatisticsHelper.average(array);
-        int min = StatisticsHelper.minInt(array);
+        int min = StatisticsHelper.CalculateMin(array);
         int max = StatisticsHelper.maxInt(array);
 
         System.out.println("Srednia: " + avg + "\nNajmniejsza liczba: " + min
