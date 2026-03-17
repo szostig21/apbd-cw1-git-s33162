@@ -25,6 +25,16 @@ public class StatisticsHelper {
         return min;
     }
 
+    public static int CalculateMin(int[] arr) {
+        int x = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] < x) {
+                x = arr[i];
+            }
+        }
+        return x;
+    }
+
     public static int maxInt(int[] arr) {
         int max = arr[0];
         for (int i = 1; i < arr.length; i++) {
