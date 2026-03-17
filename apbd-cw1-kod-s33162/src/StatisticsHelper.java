@@ -34,4 +34,10 @@ public class StatisticsHelper {
         }
         return max;
     }
+
+    public static int CalculateMax(int[] values) {
+        int max = values[0];
+        for (int v : values) if (v > max) max = v;
+        return max;
+    }
 }
